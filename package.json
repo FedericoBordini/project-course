@@ -1,0 +1,23 @@
+{
+  "name": "project-course",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto JavaScript completo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "servor src/ index.html 1234 --reload"
+  },
+  "keywords": [
+    "JavaScript",
+    "html",
+    "Cabañas"
+  ],
+  "author": "FedericoBordini",
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.0",
+  "type": "module",
+  "devDependencies": {
+    "oxfmt": "^0.46.0",
+    "oxlint": "^1.61.0",
+    "servor": "^4.0.2"
+  }
+}
