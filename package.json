@@ -4,7 +4,8 @@
   "description": "Mi primer proyecto JavaScript completo",
   "main": "index.js",
   "scripts": {
-    "dev": "servor src/ index.html 1234 --reload"
+    "dev": "servor src/ index.html 1234 --reload",
+    "deploy": "gh-pages -d src/"
   },
   "keywords": [
     "JavaScript",
@@ -16,6 +17,7 @@
   "packageManager": "pnpm@10.33.0",
   "type": "module",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "oxfmt": "^0.46.0",
     "oxlint": "^1.61.0",
     "servor": "^4.0.2"
